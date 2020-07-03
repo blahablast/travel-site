@@ -1,2 +1,5 @@
-import "../styles/styles.css";
-alert("Did you change?");
+import "../styles/styles.css"
+
+if (module.hot) {
+  module.hot.accept()
+}
